@@ -5,7 +5,7 @@
 
     <div style="background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 40px;">
         
-        <h1 style="color: #2d3748; font-size: 24px; margin-bottom: 30px;">➕ Criar Produto</h1>
+        <h1 style="color: #2d3748; font-size: 24px; margin-bottom: 30px;"> Criar Produto</h1>
 
         <form action="{{ route('produtos.store') }}" method="POST">
             @csrf
